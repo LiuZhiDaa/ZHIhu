@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <com.example.zhihu.utils.LoopView
+        android:id="@+id/Loopview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></com.example.zhihu.utils.LoopView>
+    <TextView
+        android:layout_below="@+id/Loopview"
+        android:text="今日热闻"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
